@@ -1,0 +1,92 @@
+/* Google font link */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+}
+
+.mainSection {
+  width: 250px;
+  height: 350px;
+  border-radius: 5px;
+  background-color: #0a0a0b;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result input {
+  width: 220px;
+  height: 60px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #1d1f24;
+  font-size: 20px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  margin: 10px;
+}
+
+.buttons button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+  /* color: #fff; */
+  border: none;
+  outline: none;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.btn1 {
+    background-color: #82E0AA;
+}
+
+.bt2 {
+    background-color: #E59866;
+}
+.btn3 {
+  background-color: #f1c40f;
+}
+.btn4 {
+    background-color: #7d93e0;
+}
+.btn5 {
+    background-color: orange  ;
+}
+.btn6 {
+    background-color: #f08080;
+}
+.btn7 {
+    background-color: #9477af;
+}
+.btn8 {
+    background-color: #20b2aa;
+}
